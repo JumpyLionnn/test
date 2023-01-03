@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node backend/src/index.js",
-    "build": "npm --prefix frontend run build --max-old-space-size=256",
+    "build": "npm --prefix frontend run build --max-old-space-size=512",
     "watch-frontend": "nodemon --config frontend/nodemon.json",
     "watch-backend": "nodemon --config backend/nodemon.json",
-    "postinstall": "cd backend && npm install --max-old-space-size=256 && cd ../frontend && npm install --max-old-space-size=256"
+    "postinstall": "cd backend && npm install --max-old-space-size=512 && cd ../frontend && npm install --max-old-space-size=512"
   },
   "keywords": [],
   "author": "",
