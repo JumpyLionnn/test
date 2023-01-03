@@ -1,0 +1,18 @@
+{
+  "name": "sveltefullstacktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "build": "npm --prefix frontend run build",
+    "watch-frontend": "nodemon --config frontend/nodemon.json",
+    "watch-backend": "nodemon --config backend/nodemon.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "restartable": "rs",
+    "exec": [
+        "npm --prefix frontend run build"
+    ],
+    "watch": [
+        "frontend/src",
+        "frontend/static"
+    ],
+    "ext": "ts,json,svelte"
+  }

@@ -1,0 +1,13 @@
+{
+    "restartable": "rs",
+    "exec": [
+      "node backend/src/index.js"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "watch": [
+      "backend/src"
+    ],
+    "ext": "js,json"
+  }
