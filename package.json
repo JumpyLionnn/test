@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node backend/src/index.js",
-    "build": "npm --prefix frontend run build",
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
     "watch-frontend": "nodemon --config frontend/nodemon.json",
     "watch-backend": "nodemon --config backend/nodemon.json"
   },
